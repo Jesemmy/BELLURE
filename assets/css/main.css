@@ -242,7 +242,10 @@ div#preloader {
   padding: 0 0 10px;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
+
 }
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -710,6 +713,8 @@ div#preloader {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
+
 .otherTypes {
   color: #626865;
   text-align: right;
@@ -753,7 +758,16 @@ div#preloader {
   text-align: left auto;
   font-size: medium;
   line-height: 2rem;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
+}
+
+.cases {
+  color: #7a6c59;
+  text-align: left auto;
+  font-size: medium;
+  line-height: 2rem;
+  margin-top: -7rem;
+
 }
 
 .single {
