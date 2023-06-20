@@ -774,7 +774,7 @@ div#preloader {
   color: #693c17;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-bottom: -18rem auto;
+  margin-bottom: 48rem auto;
   text-align: justify;
   font-weight: bold;
   
@@ -785,6 +785,7 @@ div#preloader {
   color: #3a3d3a;
   line-height: 2rem;
   text-align: justify;
+  margin-top: -9.5rem;
 }
 
 #video {
