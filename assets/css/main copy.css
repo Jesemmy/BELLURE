@@ -281,14 +281,7 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 150px;
-}
-
-.images {
-  width: 50rem;
-  height: 25rem;
-  object-fit: contain;
-  background-color: #fff;
+  max-height: 40px;
 }
 
 @media (max-width: 768px) {
@@ -1145,7 +1138,7 @@ div#preloader {
 
 .project-dec a {
   display: block;
-  height: 2px;
+  height: 100%;
   width: 100%;
 }
 
@@ -1159,9 +1152,12 @@ div#preloader {
 
 .project-dec h4 {
   color: #ddd;
-  font-size: 15px;
+  font-size: 24px;
   margin-top: -45px;
-  padding-top: 40%;
+  padding-top: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 .project-dec span {
@@ -2572,6 +2568,13 @@ span.email-notes {
 
   .tab-menu ul.nav li a {
     padding: 8px 20px;
+  }
+
+  .images {
+    width: 50rem;
+    height: 25rem;
+    object-fit: contain;
+    background-color: #fff;
   }
 }
 
