@@ -6,7 +6,7 @@
   * For more info and help: https://bootstrapmade.com/php-email-form/
   */
 
-  echo "here";
+  //echo "here";
 
   // Replace contact@example.com with your real receiving email address
   $receiving_email_address = 'udoaniedi184@gmail.com';
@@ -19,7 +19,7 @@
   $headers = "From:" .$_POST['email'] . "\r\n" .
   "CC: jesemmy001@gmail.com";
 
-  echo mail($to,$subject,$txt,$headers);
+  mail($to,$subject,$txt,$headers);
 
   // if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
   //   include( $php_email_form );
