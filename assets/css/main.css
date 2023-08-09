@@ -1597,8 +1597,8 @@ div#preloader {
 --------------------------------------------------------------*/
 .bloggingimg{
     height: 400px;
-    width: 4100px;
-    object-fit: contain;
+    width: 4000px;
+    object-fit: cover;
     
      
 }
